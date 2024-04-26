@@ -1,0 +1,83 @@
+
+<!DOCTYPE html> 
+<html lang="en"> 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>personality checker Quiz</title>
+  <link rel="stylesheet" href="main.css">
+</head> 
+<body>
+  <div class="quiz-container">  
+    <h1 class="heading">Personality Quiz</h1>
+    <p>Answer the following questions to get personalized career recommendations:</p> 
+    
+    <div class="question">
+      <label for="domain">Select your domain:</label>
+      <select id="domain">
+        <option value="">-- Select --</option>
+        <option value="science">Science</option>
+        <option value="commerce">Commerce</option>
+        <option value="arts">Arts</option>
+      </select>
+    </div>
+    <div class="question">
+        <label for="domain">select your age</label>
+        <select id="domain">
+          <option value="">-- Select --</option>
+          <option value="science">below 16</option>
+          <option value="commerce">16-21</option>
+          <option value="arts">above 21</option>
+        </select>
+      </div>
+     
+    <div class="question">
+      <label for="interest">Do you prefer spending time alone or with others?</label>
+      <input type="text" id="interest" placeholder="Enter your answer">
+    </div>
+    <div class="question">
+      <label for="interest">Are you organized and detail-oriented, or more spontaneous and flexible?</label>
+      <input type="text" id="interest" placeholder="Enter your answer">
+    </div> 
+    <div class="question">
+      <label for="interest">How do you handle conflicts or disagreements with others?</label>
+      <input type="text" id="interest" placeholder="Enter your answer">
+    </div> 
+    <div class="question">
+      <label for="interest">What motivates you in your career or profession?</label>
+      <input type="text" id="interest" placeholder="Enter your answer">
+    </div>
+    <div class="question">
+      <label for="interest">How do you spend your free time when you're not working or studying?</label>
+      <input type="text" id="interest" placeholder="Enter your answer">
+    </div> 
+    <div class="question">
+        <label for="interest">Are you more analytical and logical, or do you rely on intuition and gut feelings?</label>
+        <input type="text" id="interest" placeholder="Enter your answer"> 
+      </div> 
+      <div class="question">
+        <label for="interest">How do you respond to challenges that require thinking outside the box?</label>
+        <input type="text" id="interest" placeholder="Enter your answer">
+      </div> 
+      <div class="question">
+        <label for="interest">Are you comfortable stepping out of your comfort zone and trying new things?</label>
+        <input type="text" id="interest" placeholder="Enter your answer">
+      </div>  
+      <div class="question">
+        <label for="domain">do you want to generate roadmap?</label>
+        <select id="domain">
+          <option value="">-- Select --</option>
+          <option value="science">yes</option>
+          <option value="commerce">no</option>
+          <option value="arts">not sure</option>
+        </select>
+      </div>
+    
+    <button id="submit-btn">Generate Roadmap</button>
+    
+    <div class="result" id="result"></div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
